@@ -7,15 +7,15 @@ public class NumeroParoImpar
     {
         Scanner teclado = new Scanner( System.in );
         int numero;
-        System.out.printf( "Introduzca un número entero: " );
+        System.out.print( "Introduzca un número entero: " );
         numero = teclado.nextInt();
 
         if ( numero % 2 == 0 )
         {
-            System.out.printf( "ES PAR" );
+            System.out.print( "ES PAR" );
         }
         else
         {
-            System.out.printf( "ES IMPAR" );
+            System.out.print( "ES IMPAR" );
         }
     }
